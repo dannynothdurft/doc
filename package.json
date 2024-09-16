@@ -1,0 +1,15 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "Ein Projekt zum Konvertieren von Markdown zu HTML",
+  "main": "src/index.md",
+  "scripts": {
+    "dev": "node ./node_modules/md-to-html-web/dist/server.js",
+    "build": "node ./node_modules/md-to-html-web/dist/build.js"
+  },
+  "dependencies": {
+    "md-to-html-web": "^1.0.7"
+  },
+  "author": "Danny Nothdurft",
+  "license": "MIT"
+}
